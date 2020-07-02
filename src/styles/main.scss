@@ -143,7 +143,8 @@ header {
 .projects {
   > a {
     color: white;
-    background: var(--blue);
+    // background: var(--blue);
+    background: red;
     border: none;
     padding: 1em 3em;
     font-size: 16px;
