@@ -1,24 +1,19 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
-  const { pathname } = window.location;
-
-  const showClassName = (l) => {
-    return pathname === l ? "active" : "";
-  };
-
   return (
     <header>
       <ul>
-        <a href="/about" className={showClassName("/about")}>
+        <NavLink exact to="/about" activeClassName="active">
           About me
-        </a>
-        <a href="/" className={showClassName("/")}>
+        </NavLink>
+        <NavLink exact to="/" activeClassName="active">
           Projects
-        </a>
-        <a href="/contact" className={showClassName("/contact")}>
-        Contact Me
-        </a>
+        </NavLink>
+        <NavLink exact to="/contact" activeClassName="active">
+          Contact Me
+        </NavLink>
       </ul>
     </header>
   );

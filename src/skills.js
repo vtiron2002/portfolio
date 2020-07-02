@@ -5,6 +5,7 @@ const skills = {
     "Javascript/Jquery",
     "ReactJs",
     "React Native",
+    "React Redux",
     "Responsive Design",
     "Version Control/Git",
     "Bootstrap",
@@ -15,4 +16,4 @@ const skills = {
   backend: ["MySQL", "MongoDB", "Express", "REST", "node.js"],
 };
 
-export default skills
+export default skills;

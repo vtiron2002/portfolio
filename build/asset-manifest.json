@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.10f43667.chunk.css",
+    "main.js": "/static/js/main.b9ca0f7f.chunk.js",
+    "main.js.map": "/static/js/main.b9ca0f7f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.db4cc9d8.chunk.js": "/static/js/2.db4cc9d8.chunk.js",
+    "static/js/2.db4cc9d8.chunk.js.map": "/static/js/2.db4cc9d8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.057efe631fae141c0687b815952ea5e7.js": "/precache-manifest.057efe631fae141c0687b815952ea5e7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.10f43667.chunk.css.map": "/static/css/main.10f43667.chunk.css.map",
+    "static/js/2.db4cc9d8.chunk.js.LICENSE.txt": "/static/js/2.db4cc9d8.chunk.js.LICENSE.txt",
+    "static/media/bookRooms.png": "/static/media/bookRooms.1d1fbd99.png",
+    "static/media/dark-help-page.png": "/static/media/dark-help-page.59bf3b03.png",
+    "static/media/fastTechSite.png": "/static/media/fastTechSite.08332c4b.png",
+    "static/media/loginPage.png": "/static/media/loginPage.a0e2354c.png",
+    "static/media/mernap.png": "/static/media/mernap.434e548f.png",
+    "static/media/mobileUI.png": "/static/media/mobileUI.8984cd76.png",
+    "static/media/noteman.png": "/static/media/noteman.f7b17dac.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.db4cc9d8.chunk.js",
+    "static/css/main.10f43667.chunk.css",
+    "static/js/main.b9ca0f7f.chunk.js"
+  ]
+}

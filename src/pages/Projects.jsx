@@ -1,6 +1,7 @@
 import React from "react";
 import projects from "../projects";
 import { FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Project = ({ p: { img, name, info, codeLink, pageSite } }) => {
   document.title = 'Portfolio - My Projects'
@@ -11,10 +12,10 @@ const Project = ({ p: { img, name, info, codeLink, pageSite } }) => {
         <h4>{name}</h4>
         <p>{info}</p>
         <div className="buttons">
-          <a target="_blank" href={pageSite}>
+          <a target="_blank" href={pageSite} rel="noopener noreferrer">
             View Project
           </a>
-          <a target="_blank" href={codeLink}>
+          <a target="_blank" href={codeLink} rel="noopener noreferrer">
             <FaGithub />
             View Code
           </a>
@@ -26,13 +27,14 @@ const Project = ({ p: { img, name, info, codeLink, pageSite } }) => {
 };
 
 function Projects() {
+
   return (
     <div className="projects page">
       <h1>Valentyn Tiron</h1>
       <p>
         Front-end/React Developer;
       </p>
-      <a href="/about">About me</a>
+      <Link to="/about">About me</Link>
 
       <div className="projects-container">
         {projects.map((p, i) => (
