@@ -38,6 +38,7 @@ function Projects() {
         rel="noopener noreferrer"
         target="_blank"
         href="https://tirondevresume.netlify.app/"
+        className="resume-link"
       >
         View my Resume
       </a>
