@@ -20,9 +20,6 @@ function About() {
     <div className="about page">
       <h1>About Me</h1>
       <p>
-        {/* I'm Valentyn Tiron, a web developer with about 2 years of coding
-        experience. I use HTML/CSS and JS with things like ReactJS and SCSS to
-        build full-stack apps. */}
         My name is Valentyn. I'm a front-end developer that uses React. I have
         about 2 years of experience in coding the front-end part of the web. I
         am located in Dallas, GA. I'm able to develop design mockups with clean and

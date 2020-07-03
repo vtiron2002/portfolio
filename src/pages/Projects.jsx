@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Project = ({ p: { img, name, info, codeLink, pageSite } }) => {
-  document.title = 'Portfolio - My Projects'
+  document.title = "Portfolio - My Projects";
 
   return (
     <div className="project">
@@ -27,14 +27,20 @@ const Project = ({ p: { img, name, info, codeLink, pageSite } }) => {
 };
 
 function Projects() {
-
   return (
     <div className="projects page">
       <h1>Valentyn Tiron</h1>
-      <p>
-        Front-end/React Developer;
-      </p>
+      <p>Front-end/React Developer;</p>
+
       <Link to="/about">About me</Link>
+
+      <a
+        rel="noopener noreferrer"
+        target="_blank"
+        href="https://tirondevresume.netlify.app/"
+      >
+        View my Resume
+      </a>
 
       <div className="projects-container">
         {projects.map((p, i) => (
