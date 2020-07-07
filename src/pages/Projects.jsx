@@ -37,7 +37,7 @@ function Projects() {
       <a
         rel="noopener noreferrer"
         target="_blank"
-        href="https://tirondevresume.netlify.app/"
+        href={require('../ValentynTironResume.pdf')}
         className="resume-link"
       >
         View my Resume
