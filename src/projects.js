@@ -1,5 +1,12 @@
 const projects = [
   {
+    name: 'Airbnb Clone',
+    img: require('./images/airbnb-clone.png'),
+    info: 'Airbnb clone made with React and React date picker. Front-end only',
+    codeLink: 'https://github.com/vtiron2002/airbnb-clone',
+    pageSite: 'https://airbnb-a53bc.web.app/'
+  },
+  {
     name: 'Express-Sell',
     img: require('./images/express-sell.png'),
     info: 'MERN stack app which includes users, orders, and products in the mongodb. Also deployed on heroku',
