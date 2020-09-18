@@ -37,7 +37,7 @@ function Projects() {
       <a
         rel="noopener noreferrer"
         target="_blank"
-        href={require('../ValentynTironResume.pdf')}
+        href={require('../ValentynResume.pdf')}
         className="resume-link"
       >
         View my Resume
