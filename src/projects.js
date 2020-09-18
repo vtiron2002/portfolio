@@ -4,7 +4,7 @@ const projects = [
     img: require('./images/airbnb-clone.png'),
     info: 'Airbnb clone made with React and React date picker. Front-end only',
     codeLink: 'https://github.com/vtiron2002/airbnb-clone',
-    pageSite: 'airbnb-a53bc.firebaseapp.com'
+    pageSite: 'https://airbnb-a53bc.firebaseapp.com'
   },
   {
     name: 'Express-Sell',
